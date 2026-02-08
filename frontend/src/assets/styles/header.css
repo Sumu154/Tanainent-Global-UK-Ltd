@@ -12,7 +12,7 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  opacity: 0.1; /* only image is transparent */
+  opacity: 0.2; /* only image is transparent */
   z-index: 0;
 }
 

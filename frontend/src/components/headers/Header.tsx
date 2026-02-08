@@ -5,7 +5,7 @@ import '@/assets/styles/header.css'
 
 const Header = () => {
   return (
-    <div className='banner-bg h-[800px]'>
+    <div className='banner-bg'>
       <Navbar></Navbar>
       <Banner></Banner>
     </div>

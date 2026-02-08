@@ -18,51 +18,41 @@ const Navbar = () => {
     <>
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#app-preview" className="nav-link font-medium text-primary/70">
-            App Preview
-          </a>
+          <a href="#app-preview" className="font-bold text-navy-blue/90"> <p className="text-[16px]">Services</p> </a>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#problem-solutions" className="nav-link font-medium text-primary/70">
-            Problem Solutions
-          </a>
+          <a href="#problem-solutions" className="font-bold text-navy-blue/90"> <p className="text-[16px]"> Products </p> </a>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#features" className="nav-link font-medium text-primary/70">
-            Features
-          </a>
+          <a href="#features" className="nav-link font-bold text-navy-blue/90"> <p className="text-[16px]"> Ai Solutions </p> </a>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#how-it-works" className="nav-link font-medium text-primary/70">
-            How it Works
-          </a>
+          <a href="#how-it-works" className="nav-link font-bold text-navy-blue/90"> <p className="text-[16px]"> About </p> </a>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
       <NavigationMenuItem>
         <NavigationMenuLink asChild>
-          <a href="#technology" className="nav-link font-medium text-primary/70">
-            Technology
-          </a>
+          <a href="#technology" className="nav-link font-bold text-navy-blue/90"> <p className="text-[16px]"> Contact </p> </a>
         </NavigationMenuLink>
       </NavigationMenuItem>
 
-      <NavigationMenuItem>
+      {/* <NavigationMenuItem>
         <NavigationMenuLink asChild>
           <a href="#pricing" className="nav-link font-medium text-primary/70">
             Pricing
           </a>
         </NavigationMenuLink>
-      </NavigationMenuItem>
+      </NavigationMenuItem> */}
     </>
   );
 
@@ -82,7 +72,7 @@ const Navbar = () => {
         {/* Desktop Menu */}
         <div className="hidden md:flex">
           <NavigationMenu>
-            <NavigationMenuList className="bg-muted rounded-full px-6 py-2 gap-2">
+            <NavigationMenuList className="font-marko text-2xl bg-navy-blue/10 rounded-full px-6 py-1 gap-2">
               {links}
             </NavigationMenuList>
           </NavigationMenu>
