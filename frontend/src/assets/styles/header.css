@@ -1,0 +1,22 @@
+.banner-bg {
+  position: relative; /* needed for pseudo-element */
+  background-color: #fff; /* fallback color */
+  overflow: hidden; /* optional */
+}
+
+.banner-bg::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: url('@/assets/images/banner.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  opacity: 0.1; /* only image is transparent */
+  z-index: 0;
+}
+
+.banner-bg > * {
+  position: relative; /* bring content above the pseudo-element */
+  z-index: 1;
+}

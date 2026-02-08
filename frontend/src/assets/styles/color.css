@@ -1,0 +1,37 @@
+.gradient-text {
+  background: linear-gradient(90deg, #1E40AF 35%, #22023D 93%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+.gradient-bg {
+  background: linear-gradient(90deg, #0460E9 10%, #5E4BE9 85%);
+}
+
+
+.gradient-bg-updown {
+  background: linear-gradient(180deg, #5E4BE9 10%, #0460E9 95%);
+}
+
+
+
+.gradient-red {
+  background: linear-gradient(180deg, rgba(131, 26, 26, 1) 15%, rgba(131, 26, 26, 0.1) 90%);
+  opacity: .15;
+}
+
+.gradient-blue {
+  background: linear-gradient(180deg, rgba(4, 96, 233, 1) 15%, rgba(4, 96, 233, 0.1) 90%);
+  opacity: .15;
+}
+
+.gradient-purple {
+  background: linear-gradient(180deg, rgba(152,56,237, 1) 15%, rgba(152,56,237, 0.1) 90%);
+  opacity: .2;
+}
+
+
